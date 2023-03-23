@@ -45,10 +45,6 @@
 
 						<environment>${cloud.env}</environment>
 
-						<businessGroup>${anypoint.businessGroup}</businessGroup>
-
-						<workerType>${cloudhub.workerType}</workerType>
-
 						<properties>
 
 							<key>value</key>
