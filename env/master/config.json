@@ -1,0 +1,6 @@
+{
+   "envConfig" : {
+        "envName" : "Sandbox",
+        "muleVersion" : "4.3.0"
+    }
+}

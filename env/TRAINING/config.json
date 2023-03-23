@@ -1,0 +1,6 @@
+{
+    "envConfig" : {
+         "envName" : "Training",
+         "muleVersion" : "4.3.0"
+     }
+ }
