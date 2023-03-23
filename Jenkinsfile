@@ -17,10 +17,10 @@ pipeline {
             }            
     }
 
-    stage('Unit Test') {
+    stage('Build Application') { 
       steps {
-        sh 'mvn clean test'
-      }
+        sh 'mvn clean install'
+      }  
     }
 
     stage('Deploy CloudHub') {
