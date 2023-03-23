@@ -145,6 +145,9 @@ output application/json
   {
     accountID: "AC000",
     name: "The fifth acount"
+  },{
+    accountID: "AC111",
+    name: "The sixth acount"
   }
 ]]]></ee:set-payload>
             </ee:message>
