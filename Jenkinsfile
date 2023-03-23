@@ -21,7 +21,7 @@ pipeline {
         //miriam  sh 'mvn package deploy -DmuleDeploy -Dusername=${ANYPOINT_CREDENTIALS_USR} -Dpassword=${ANYPOINT_CREDENTIALS_PSW} -DworkerType=Micro -Dworkers=1 -Dregion=us-west-2'
 
         //tannous sh 'mvn deploy -DmuleDeploy -Dcloud.env=INT -DcloudhubAppName=mule-cicd-test-dev -Dmule.version=4.1.4 -Dcloud.user=samy_toubal -Dcloud.password=test'      
-        sh 'mvn clean deploy -P cloudhub -Dmule.version=3.9.0 -Danypoint.username=${ANYPOINT_CREDENTIALS_USR} -Danypoint.password=${ANYPOINT_CREDENTIALS_PSW}'
+        sh 'mvn clean deploy -P cloudhub -Dmule.version=4.3.0 -Danypoint.username=${ANYPOINT_CREDENTIALS_USR} -Danypoint.password=${ANYPOINT_CREDENTIALS_PSW}'
 
 
       }
