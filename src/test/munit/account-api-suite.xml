@@ -7,7 +7,7 @@
 		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
 		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
-	<munit:config name="account-api-suite.xml" />
+	<munit:config name="account-api-suite.xml" embedded="false" />
 	<munit:test name="get:\accounts:account-api-config-test" doc:id="4a4f9095-8f91-4b82-b1b2-e74fb90125a2" >
 		<munit:behavior >
 			<munit:set-event doc:name="Set Input" doc:id="d88dc0ae-222d-4d85-a64f-a7af5323ab3a" >
