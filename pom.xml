@@ -33,18 +33,15 @@
 				<configuration>
 
 					<cloudHubDeployment>
-
 						<uri>https://anypoint.mulesoft.com</uri>
-
 						<muleVersion>${mule.version}</muleVersion>
-
 						<username>${cloud.user}</username>
-
 						<password>${cloud.password}</password>
-
-						<applicationName>${cloudhubAppName}</applicationName>
-
 						<environment>${cloud.env}</environment>
+						<applicationName>${cloudhubAppName}</applicationName>
+						<workers>${workers}</workers>
+						<workerType>${worker.type}</workerType>
+						<objectStoreV2>true</objectStoreV2>
 
 						<properties>
 
